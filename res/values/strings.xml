@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Esperanto Anywhere</string>
+    <string name="edit_message">Type or copy and paste Esperanto text here, then click \"Translate\" above. Translation of a paragraph takes a few seconds. Circumflexes and the X-method are allowed. The creator of this program doesn\'t assume responsibility for its use or its accuracy. Created by David Kenneth Crandall, \u00a9 2014.</string>
+    <string name="edit_message2">En la supra tekstujo, skribu a\u016d kopiu kaj gluu tekston en Esperanto, kaj klaku sur la butono \"Translate\"
+ supre por traduki al la angla. Paragrafo postulas kelkajn sekundojn. Cirkumfleksoj kaj la X-metodo estas permesataj. La kreinto de \u0109i tiu programo ne havas prirespondecon pri \u011dia uzo a\u016d \u011dia \u011dusteco. Kreita fare de David Kenneth Crandall, \u00a9 2014.</string>
+
+    <string name="button_send">Translate</string>
+    <string name="button_send2">Erase</string>
+    <string name="button_send3">Donate</string>
+    <string name="button_send4">Donate</string>
+    <string name="button_sendPaste">Paste</string>
+    <string name="button_sendc">\u0109</string>
+    <string name="button_sendC">\u0108</string>
+    <string name="button_sendg">\u011d</string>
+    <string name="button_sendG">\u011c</string>
+    <string name="button_sendh">\u0125</string>
+    <string name="button_sendH">\u0124</string>
+    <string name="button_sendj">\u0135</string>
+    <string name="button_sendJ">\u0134</string>
+    <string name="button_sends">\u015d</string>
+    <string name="button_sendS">\u015c</string>
+    <string name="button_sendu">\u016d</string>
+    <string name="button_sendU">\u016c</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="esperanto">Esperanto to English</string>
+</resources>

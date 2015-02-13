@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+  <LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="40dp"
+  android:orientation="horizontal" >
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendu"
+    android:onClick="sendMessageu" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="3"
+    android:text="@string/button_send"
+    android:onClick="sendMessageTranslateEsperanto" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="3"
+    android:text="@string/button_sendPaste"
+    android:onClick="sendMessagePaste" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="3"
+    android:text="@string/button_send2"
+    android:onClick="sendMessageErase" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendU"
+    android:onClick="sendMessageU" />
+  </LinearLayout>
+  <LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="40dp"
+  android:orientation="horizontal" >
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendc"
+    android:onClick="sendMessagec" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendg"
+    android:onClick="sendMessageg" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendh"
+    android:onClick="sendMessageh" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendj"
+    android:onClick="sendMessagej" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sends"
+    android:onClick="sendMessages" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendC"
+    android:onClick="sendMessageC" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendG"
+    android:onClick="sendMessageG" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendH"
+    android:onClick="sendMessageH" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendJ"
+    android:onClick="sendMessageJ" />
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:text="@string/button_sendS"
+    android:onClick="sendMessageS" />
+  </LinearLayout>
+  <EditText
+  android:id="@+id/edit_message"
+  android:layout_width="match_parent"
+  android:layout_height="150dp"
+  android:gravity="bottom"
+  android:inputType="textCapSentences|textMultiLine|textNoSuggestions"
+  android:windowSoftInputMode="stateVisible"
+  android:hint="@string/edit_message"
+  android:textIsSelectable="true"
+  android:textSize="12sp" >
+  <requestFocus/>
+</EditText>
+  <EditText
+  android:id="@+id/edit_message2"
+  android:layout_width="match_parent"
+  android:layout_height="150dp"
+  android:inputType="textCapSentences|textMultiLine|textNoSuggestions"
+  android:windowSoftInputMode="stateVisible"
+  android:hint="@string/edit_message2"
+  android:textIsSelectable="true"
+  android:textSize="12sp" />
+  <LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="40dp"
+  android:orientation="horizontal" >
+    <ToggleButton 
+    android:id="@+id/togglebutton"
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="3"
+    android:textOn="Translate most capitalized words"
+    android:textOff="Don't translate most capitalized words"
+    android:onClick="onToggleClicked"
+    android:textSize="12sp" />
+    <ToggleButton 
+    android:id="@+id/togglebutton4"
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:textOn="Restore"
+    android:textOff="Donate"
+    android:onClick="onToggleClicked4"
+    android:textSize="12sp" />
+  </LinearLayout>
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal" >
+    <ToggleButton 
+    android:id="@+id/togglebutton2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textOn="H-Method"
+    android:textOff="No H-Method"
+    android:onClick="onToggleClicked2"
+    android:textSize="12sp"
+    android:layout_weight="1" />
+    <ToggleButton 
+    android:id="@+id/togglebutton3"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textOn="No circumflex correction"
+    android:textOff="Circumflex correction"
+    android:onClick="onToggleClicked3"
+    android:textSize="12sp"
+    android:layout_weight="2" />
+  </LinearLayout>
+</LinearLayout> 
